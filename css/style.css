@@ -1,0 +1,445 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #c2f6f6;
+}
+
+header img {
+    height: 100px;
+    padding: 10px 20px;
+}
+
+header {
+    width: 100%;
+    height: 110px;
+    background-color: #01bbbd;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav {
+    align-self: flex-end;
+    padding-bottom: 20px;
+    padding-right: 15px;
+}
+
+header nav a {
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 50px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+
+#conteudo {
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* Página Termos de adoção*/
+#pagina-contato {
+    background-color: #73eeef;
+    border-radius: 10px;
+    margin: 10px auto;
+    max-width: 90%;
+    width: 100%;
+    padding: 25px;
+}
+
+#termo {
+    text-align: justify;
+}
+
+#assinatura {
+    text-align: right;
+}
+
+#assinatura h2 {
+    padding-right: 70px;
+}
+
+#contato {
+    font-weight: bold;
+    background-color: #01bbbd;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 10px 20px;
+}
+
+#img-assinatura {
+    width: 15%;
+}
+
+/*Página Inicial = Index*/
+.container {
+    width: 100%;
+    margin: 15px auto;
+    max-width: 80%;
+}
+
+#img-golpe {
+    width: 100%;
+}
+
+#btn-contato {
+    font-weight: bold;
+    background-color: #01bbbd;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    width: 100%;
+    display: block;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+.quadros {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.quadros img {
+    width: 30%;
+}
+
+/* Página Contato*/
+
+#duvidas-contato {
+    text-align: justify;
+    padding-left: 30px;
+}
+
+/* Página Feedback*/
+
+textarea {
+    border-radius: 10px;
+    width: 96%;
+    height: 45%;
+    resize: none;
+}
+
+button {
+    margin: 25px 25px 10px 15px;
+    padding: 10px 30px;
+    border: 0px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+#botao-enviar {
+    font-weight: bold;
+    background-color: #01bbbd;
+    color: black;
+}
+
+#botao-apagar {
+    font-weight: bold;
+    background-color: #e8e1e1;
+    color: black;
+}
+
+
+
+/* Página Quem Somos*/
+
+#duvidas-contato {
+    text-align: justify;
+    padding-left: 50px;
+}
+
+/* Página Quero Adotar*/
+#pagina-quem-somos {
+    margin: 10px auto;
+    width: 80%;
+    padding: 25px;
+    display: flex;
+}
+
+#pagina-quem-somos div{
+    background-color: #73eeef;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+#pagina-quem-somos div img{
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+#pagina-quem-somos div a{
+    text-decoration: none;
+    color: black;
+}
+   
+/* Página Gatos*/
+#pagina-gatos-1 {
+    margin: 10px auto;
+    width: 80%;
+    padding: 25px;
+    display: flex;
+}
+
+#pagina-gatos-1 div{
+    background-color: #73eeef;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+#pagina-gatos-1 div img{
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+#pagina-gatos-1 div a{
+    text-decoration: none;
+    color: black;
+}
+
+#pagina-gatos-2 {
+    margin: 10px auto;
+    width: 80%;
+    padding: 25px;
+    display: flex;
+}
+
+#pagina-gatos-2 div{
+    background-color: #73eeef;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+#pagina-gatos-2 div img{
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+#pagina-gatos-2 div a{
+    text-decoration: none;
+    color: black;
+}
+
+#pagina-gatos-3 {
+    margin: 10px auto;
+    width: 80%;
+    padding: 25px;
+    display: flex;
+}
+
+#pagina-gatos-3 div{
+    background-color: #73eeef;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+#pagina-gatos-3 div img{
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+#pagina-gatos-3 div a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Página Cachorro*/
+#pagina-cachorro-1 {
+    margin: 10px auto;
+    width: 80%;
+    padding: 25px;
+    display: flex;
+}
+
+#pagina-cachorro-1 div{
+    background-color: #73eeef;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+#pagina-cachorro-1 div img{
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+#pagina-cachorro-1 div a{
+    text-decoration: none;
+    color: black;
+}
+
+#pagina-cachorro-2 {
+    margin: 10px auto;
+    width: 80%;
+    padding: 25px;
+    display: flex;
+}
+
+#pagina-cachorro-2 div{
+    background-color: #73eeef;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+#pagina-cachorro-2 div img{
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+#pagina-cachorro-2 div a{
+    text-decoration: none;
+    color: black;
+}
+
+#pagina-cachorro-3 {
+    margin: 10px auto;
+    width: 80%;
+    padding: 25px;
+    display: flex;
+}
+
+#pagina-cachorro-3 div{
+    background-color: #73eeef;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+#pagina-cachorro-3 div img{
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+#pagina-cachorro-3 div a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Página Nina*/
+#nina {
+    margin: 10px auto;
+    width: 80%;
+    padding: 25px;
+}
+
+#nina-card {
+    display: flex;
+    background-color: #73eeef;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;  
+}
+
+#nina-card img{
+    height: 500px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+#escrita-nina{
+    padding: 15px;
+    text-align: left;
+}
+
+#pet{
+    width: 100%;
+}
+
+/*Página login*/
+#erro {
+    color: red;
+    font-weight: bold;
+    display: none;
+}
+
+#frmLogin {
+    text-align: center;
+}
+
+#frmLogin button {
+    margin: 20px auto;
+    padding: 10px 30px;
+    width: 250px;
+}
+
+input{
+    width: 300px;
+}
+
+#frmLogin2 {
+    text-align: center;
+}
+
+#frmLogin2 button {
+    margin: 20px auto;
+    padding: 10px 30px;
+    width: 250px;
+}
+
+/*Página noticação*/
+#notificacao{
+    width: 40px;
+    height: 40px;
+}
+
+#escrita-not{
+ text-align: center; 
+ font-weight: bold;
+ font-size: 35px;
+}
+
+/* Estilos para Responsividade */
+
+@media (max-width: 768px) {
+    button {
+        font-size: 20px;
+        padding: 15px 50px;
+    }
+}
+
+/* Final do @midia 768px */
